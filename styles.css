@@ -76,15 +76,13 @@ body {
     color: var(--primary-color);
 }
 
-.header-image .img-placeholder {
+.header-image .profile-img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    background-color: #e2e8f0;
+    object-fit: cover;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    background-image: linear-gradient(135deg, #cbd5e1 0%, #94a3b8 100%);
-    /* Replace background-image with an actual image if you want to use CSS background */
-    /* background-image: url('profile.jpg'); background-size: cover; */
+    border: 3px solid #ffffff;
 }
 
 /* Sections */
