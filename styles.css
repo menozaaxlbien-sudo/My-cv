@@ -25,7 +25,7 @@ body {
 }
 
 .resume-wrapper {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -83,6 +83,13 @@ body {
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border: 3px solid #ffffff;
+}
+
+/* 2-Column Layout */
+.main-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
 }
 
 /* Sections */
@@ -236,11 +243,15 @@ body {
         flex-direction: column-reverse;
         gap: 2rem;
     }
-    .header-image .img-placeholder {
+    .header-image .profile-img {
         width: 100px;
         height: 100px;
     }
     .header-info h1 {
         font-size: 2rem;
+    }
+    .main-content-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 }
