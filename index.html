@@ -1,175 +1,1308 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae - Axl Bien Meñoza</title>
+    <title>Axl Bien Meñoza — Curriculum Vitae | BSIT Senior Student & Aspiring Systems Analyst</title>
+    
+    <!-- Meta & SEO Tags -->
+    <meta name="description" content="Professional Curriculum Vitae of Axl Bien Meñoza, 4th Year BSIT student at Davao del Norte State College (DNSC). Specializing in web development, systems analysis, database management, and computer network troubleshooting.">
+    <meta name="keywords" content="Axl Bien Meñoza, CV, Resume, BSIT, Davao del Norte State College, DNSC, Web Developer, Systems Analyst, Panabo City, VISTA AI Chatbot, TourEase">
+    <meta name="author" content="Axl Bien Meñoza">
+    <meta name="theme-color" content="#0d1117">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Axl Bien Meñoza — Professional Curriculum Vitae">
+    <meta property="og:description" content="BSIT Senior Student at Davao del Norte State College · Aspiring Software Engineer & Systems Analyst.">
+    <meta property="og:image" content="prof.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts: Plus Jakarta Sans (Headings), Inter (Body), JetBrains Mono (Code/Badges) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="resume-wrapper">
-        <div class="resume-card">
-            <header class="header">
-                <div class="header-info">
-                    <h1>Axl Bien Meñoza</h1>
-                    <h2 class="role">BSIT Student | System Analyst </h2>
+    <!-- Skip to Content Link for Screen Readers & Keyboard Navigation -->
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
 
-                    <ul class="contact-info">
-                        <li>
-                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2"
-                                fill="none">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                </path>
-                                <polyline points="22,6 12,13 2,6"></polyline>
-                            </svg>
-                            menoza.axlbien@dnsc.edu.ph
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2"
-                                fill="none">
-                                <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                                </path>
-                            </svg>
-                            09128646926
-                        </li>
-                        <li>
-                            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2"
-                                fill="none">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                <circle cx="12" cy="10" r="3"></circle>
-                            </svg>
-                            Panabo City, Davao del Norte
-                        </li>
-                    </ul>
-                </div>
-                <div class="header-image">
-                    <img src="prof.jpg" alt="Axl Bien Meñoza" class="profile-img">
-                </div>
-            </header>
+    <!-- Top Announcement & Status Bar -->
+    <div class="top-status-bar" role="complementary">
+        <div class="container status-bar-inner">
+            <div class="status-left">
+                <span class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Available for OJT / Internship &amp; Tech Opportunities</span>
+                </span>
+                <span class="status-divider">•</span>
+                <span class="status-location">📍 Panabo City, Davao del Norte, PH</span>
+            </div>
+            <div class="status-right">
+                <span class="status-date" id="live-time">DNSC BSIT 4D • IT415</span>
+            </div>
+        </div>
+    </div>
 
-            <!-- 2-COLUMN GRID FOR COMPACTNESS -->
-            <div class="main-content-grid">
-                <div class="left-column">
-                    <section class="section">
-                        <div class="section-title">
-                            <span class="line"></span>
-                            <h3>PROFILE</h3>
+    <!-- Main Navigation Header -->
+    <header class="site-header" id="site-header">
+        <div class="container header-container">
+            <a href="#" class="brand-logo" aria-label="Axl Bien Meñoza Homepage">
+                <span class="brand-monogram">AM</span>
+                <span class="brand-text">
+                    <span class="brand-name">Axl Bien Meñoza</span>
+                    <span class="brand-tag">BSIT Portfolio &amp; CV</span>
+                </span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link active">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#certifications" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Navigation Controls & Actions -->
+            <div class="header-actions">
+                <!-- Theme Switcher -->
+                <button type="button" class="btn-icon theme-toggle" id="theme-toggle" aria-label="Toggle Dark and Light theme" title="Toggle Theme (T)">
+                    <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <!-- PDF Print Button -->
+                <button type="button" class="btn btn-outline btn-sm print-cv-btn" id="print-cv-btn" title="Download or Print Executive CV">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                        <rect x="6" y="14" width="12" height="8"></rect>
+                    </svg>
+                    <span>Print CV</span>
+                </button>
+
+                <!-- Quick Connect Button -->
+                <a href="#contact" class="btn btn-primary btn-sm header-cta">Connect</a>
+
+                <!-- Mobile Menu Hamburger -->
+                <button type="button" class="btn-icon mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Navigation -->
+        <div class="mobile-drawer" id="mobile-drawer">
+            <nav aria-label="Mobile Navigation">
+                <ul class="mobile-nav-list">
+                    <li><a href="#about" class="mobile-nav-link">About</a></li>
+                    <li><a href="#education" class="mobile-nav-link">Education</a></li>
+                    <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+                    <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                    <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+                    <li><a href="#certifications" class="mobile-nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-drawer-footer">
+                <button type="button" class="btn btn-outline btn-block print-cv-mobile">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                        <rect x="6" y="14" width="12" height="8"></rect>
+                    </svg>
+                    <span>Print Executive CV (PDF)</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+        <!-- ============================================ -->
+        <!-- SECTION 1: HERO & PERSONAL PROFILE -->
+        <!-- ============================================ -->
+        <section class="hero-section" id="about">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-tag">DNSC · BSIT 4TH YEAR</span>
+                        <span class="badge-role">Aspiring Systems Analyst &amp; Web Developer</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight-name">Axl Bien Meñoza</span>.
+                    </h1>
+
+                    <p class="hero-lead">
+                        A graduating Information Technology student at <strong>Davao del Norte State College</strong>. I bridge technical systems analysis, full-stack web engineering, and computer hardware diagnostics to build intuitive, community-centered digital experiences.
+                    </p>
+
+                    <!-- Career Objective Card -->
+                    <div class="career-objective-box">
+                        <div class="objective-header">
+                            <span class="objective-icon">🎯</span>
+                            <span class="objective-label">CAREER OBJECTIVE</span>
                         </div>
-                        <p>Dedicated BSIT student with knowledge in web development, computer hardware troubleshooting,
-                            networking, and graphic design. Skilled in HTML, CSS, JavaScript, MySQL, Photoshop,
-                            Microsoft Office, VS Code, Figma, Git, and GitHub. Seeking opportunities to apply technical
-                            skills and continue learning in the IT industry.</p>
-                    </section>
+                        <p class="objective-text">
+                            Seeking an On-the-Job Training (OJT) internship or entry-level software development / systems analyst position where I can apply my competencies in web technologies, database design, and hardware troubleshooting to deliver impactful software solutions while continually advancing my professional IT capabilities.
+                        </p>
+                    </div>
 
-                    <section class="section">
-                        <div class="section-title">
-                            <span class="line"></span>
-                            <h3>EDUCATION</h3>
+                    <!-- Quick Action Buttons -->
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Get in Touch</span>
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <span>Explore Projects</span>
+                        </a>
+                        <a href="https://github.com/menozaaxlbien-sudo" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" title="Visit GitHub Profile">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/axl-bien-menoza" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" title="Visit LinkedIn Profile">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profile Card & Photo -->
+                <div class="hero-aside">
+                    <div class="profile-card">
+                        <div class="profile-frame">
+                            <img src="prof.jpg" alt="Axl Bien Meñoza - Professional Portrait" class="profile-image" width="280" height="280" loading="eager">
+                            <div class="profile-online-badge" title="Active & Ready for Opportunities">
+                                <span class="badge-pulse"></span>
+                                <span class="badge-label">Available for Work</span>
+                            </div>
                         </div>
-                        <div class="timeline">
-                            <div class="timeline-item">
-                                <div class="timeline-content">
-                                    <h4>Bachelor of Science in Information Technology</h4>
-                                    <p class="institution">Davao del Norte State College</p>
-                                    <span class="badge">College (Present)</span>
+
+                        <div class="profile-card-details">
+                            <h3 class="profile-card-name">Axl Bien Meñoza</h3>
+                            <p class="profile-card-title">BSIT Senior Student · Class 4D</p>
+                            <p class="profile-card-inst">Davao del Norte State College</p>
+
+                            <div class="profile-quick-contacts">
+                                <button type="button" class="quick-contact-pill copy-btn" data-copy="menoza.axlbien@dnsc.edu.ph" title="Click to copy email">
+                                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                    <span class="pill-text">menoza.axlbien@dnsc.edu.ph</span>
+                                    <span class="copy-hint">Copy</span>
+                                </button>
+
+                                <button type="button" class="quick-contact-pill copy-btn" data-copy="09128646926" title="Click to copy phone number">
+                                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                    <span class="pill-text">+63 912 864 6926</span>
+                                    <span class="copy-hint">Copy</span>
+                                </button>
+
+                                <div class="quick-contact-location">
+                                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    <span>Panabo City, Davao del Norte, PH</span>
                                 </div>
                             </div>
-                            <div class="timeline-item">
-                                <div class="timeline-content">
-                                    <h4>ICT Strand</h4>
-                                    <p class="institution">A.O. Floirendo National High School</p>
-                                    <span class="badge">Senior High School</span>
-                                </div>
-                            </div>
                         </div>
-                    </section>
-
-                    <section class="section">
-                        <div class="section-title">
-                            <span class="line"></span>
-                            <h3>LANGUAGES</h3>
-                        </div>
-                        <div class="pill-container">
-                            <span class="pill outline">English</span>
-                            <span class="pill outline">Filipino</span>
-                            <span class="pill outline">Cebuano</span>
-                        </div>
-                    </section>
-                </div>
-
-                <div class="right-column">
-                    <section class="section">
-                        <div class="section-title">
-                            <span class="line"></span>
-                            <h3>SKILLS</h3>
-                        </div>
-
-                        <div class="skill-category">
-                            <h4>Front-end</h4>
-                            <div class="pill-container">
-                                <span class="pill">HTML</span>
-                                <span class="pill">CSS</span>
-                                <span class="pill">JavaScript</span>
-                            </div>
-                        </div>
-
-                        <div class="skill-category">
-                            <h4>Database & Tools</h4>
-                            <div class="pill-container">
-                                <span class="pill">MySQL</span>
-                                <span class="pill">VS Code</span>
-                                <span class="pill">Figma</span>
-                                <span class="pill">Git & GitHub</span>
-                                <span class="pill">MS Office</span>
-                            </div>
-                        </div>
-
-                        <div class="skill-category">
-                            <h4>Design</h4>
-                            <div class="pill-container">
-                                <span class="pill">Adobe Photoshop</span>
-                                <span class="pill">Poster/Brochure</span>
-                                <span class="pill">Video Editing</span>
-                            </div>
-                        </div>
-
-                        <div class="skill-category">
-                            <h4>Hardware & Networking</h4>
-                            <div class="pill-container">
-                                <span class="pill">PC Assembly</span>
-                                <span class="pill">Printer Setup</span>
-                                <span class="pill">Troubleshooting</span>
-                                <span class="pill">LAN Wiring</span>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="section">
-                        <div class="section-title">
-                            <span class="line"></span>
-                            <h3>FEATURED PROJECTS</h3>
-                        </div>
-                        <div class="project-item">
-                            <h4>VISTA AI Chatbot for LGU Services</h4>
-                            <p>Ongoing capstone project – AI-powered citizen inquiry system.</p>
-                        </div>
-                        <div class="project-item">
-                            <h4>TourEase</h4>
-                            <p>Responsive tourism website for travel information and destination discovery.</p>
-                        </div>
-                    </section>
+                    </div>
                 </div>
             </div>
 
-            <footer class="footer">
-                <p>&copy; 2026 Axl Bien Meñoza. Curriculum Vitae.</p>
-            </footer>
+            <!-- Highlights Metric Ribbon -->
+            <div class="container hero-ribbon-container">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <span class="metric-value">4th Year</span>
+                        <span class="metric-label">BSIT Senior Student at DNSC</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-value">3+ Core</span>
+                        <span class="metric-label">Software &amp; System Projects</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-value">Hardware</span>
+                        <span class="metric-label">Diagnostics, PC Repair &amp; LAN Wiring</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-value">3 Langs</span>
+                        <span class="metric-label">English · Filipino · Cebuano</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SECTION 2: BASIC INFORMATION & BIO -->
+        <!-- ============================================ -->
+        <section class="section basic-info-section" id="basic-info">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">OVERVIEW</span>
+                    <h2 class="section-title">Basic Information &amp; Background</h2>
+                    <p class="section-subtitle">Core personal data, geographical location, career focus areas, and language capabilities.</p>
+                </div>
+
+                <div class="info-grid">
+                    <!-- Left Column: Biography & Background -->
+                    <div class="info-card bio-card">
+                        <h3 class="info-card-title">
+                            <span class="icon-circle">👤</span>
+                            <span>Personal Profile &amp; Overview</span>
+                        </h3>
+                        <p class="bio-paragraph">
+                            I am a dedicated Information Technology student at <strong>Davao del Norte State College</strong> with an all-around passion for technology spanning software engineering and hands-on computer systems infrastructure.
+                        </p>
+                        <p class="bio-paragraph">
+                            My development journey combines analytical thinking, systems analysis, and practical implementation. Whether architecting database schemas in MySQL, crafting responsive web interfaces using modern HTML/CSS/JavaScript, or assembling hardware and crimping LAN cables for network labs, I approach every technical problem with meticulous attention to detail and a commitment to continuous learning.
+                        </p>
+
+                        <div class="language-competency-box">
+                            <h4 class="box-heading">🌐 Multilingual Proficiency</h4>
+                            <div class="language-badges">
+                                <div class="lang-pill">
+                                    <span class="lang-name">English</span>
+                                    <span class="lang-level">Professional Working</span>
+                                </div>
+                                <div class="lang-pill">
+                                    <span class="lang-name">Filipino / Tagalog</span>
+                                    <span class="lang-level">Fluent / National</span>
+                                </div>
+                                <div class="lang-pill">
+                                    <span class="lang-name">Cebuano / Bisaya</span>
+                                    <span class="lang-level">Native / Mother Tongue</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Key Details & Interests -->
+                    <div class="info-card details-card">
+                        <h3 class="info-card-title">
+                            <span class="icon-circle">📋</span>
+                            <span>Contact &amp; Key Details</span>
+                        </h3>
+
+                        <dl class="meta-list">
+                            <div class="meta-item">
+                                <dt class="meta-term">Full Name</dt>
+                                <dd class="meta-def">Axl Bien Meñoza</dd>
+                            </div>
+                            <div class="meta-item">
+                                <dt class="meta-term">Academic Program</dt>
+                                <dd class="meta-def">Bachelor of Science in Information Technology (BSIT)</dd>
+                            </div>
+                            <div class="meta-item">
+                                <dt class="meta-term">Year &amp; Section</dt>
+                                <dd class="meta-def">4th Year — Section 4D (IT415)</dd>
+                            </div>
+                            <div class="meta-item">
+                                <dt class="meta-term">College Institution</dt>
+                                <dd class="meta-def">Davao del Norte State College (DNSC)</dd>
+                            </div>
+                            <div class="meta-item">
+                                <dt class="meta-term">Permanent Location</dt>
+                                <dd class="meta-def">Panabo City, Davao del Norte, Region XI, Philippines</dd>
+                            </div>
+                            <div class="meta-item">
+                                <dt class="meta-term">Primary Email</dt>
+                                <dd class="meta-def">
+                                    <a href="mailto:menoza.axlbien@dnsc.edu.ph" class="inline-link">menoza.axlbien@dnsc.edu.ph</a>
+                                </dd>
+                            </div>
+                            <div class="meta-item">
+                                <dt class="meta-term">Contact Number</dt>
+                                <dd class="meta-def">
+                                    <a href="tel:+639128646926" class="inline-link">+63 912 864 6926</a>
+                                </dd>
+                            </div>
+                        </dl>
+
+                        <div class="career-interests-wrapper">
+                            <h4 class="box-heading">💡 Primary Career Interests</h4>
+                            <div class="interest-tags">
+                                <span class="interest-tag">Full-Stack Web Engineering</span>
+                                <span class="interest-tag">Systems Analysis &amp; Design</span>
+                                <span class="interest-tag">Relational Database Management (MySQL)</span>
+                                <span class="interest-tag">Network Diagnostics &amp; LAN Cabling</span>
+                                <span class="interest-tag">UI/UX Prototyping (Figma)</span>
+                                <span class="interest-tag">IT Technical Support &amp; Maintenance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SECTION 3: EDUCATION -->
+        <!-- ============================================ -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">ACADEMIC JOURNEY</span>
+                    <h2 class="section-title">Educational Background</h2>
+                    <p class="section-subtitle">Formal education in Information Technology, foundational ICT training, and key coursework.</p>
+                </div>
+
+                <div class="timeline-wrapper">
+                    <!-- Timeline Item 1: College -->
+                    <article class="timeline-node">
+                        <div class="timeline-marker">
+                            <span class="marker-dot"></span>
+                            <span class="marker-line"></span>
+                        </div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="timeline-title-group">
+                                    <span class="period-badge current">2022 — Present (Expected 2026)</span>
+                                    <h3 class="timeline-degree">Bachelor of Science in Information Technology (BSIT)</h3>
+                                    <h4 class="timeline-school">
+                                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                        </svg>
+                                        <span>Davao del Norte State College (DNSC)</span>
+                                    </h4>
+                                    <p class="school-location">Tad-y Campus, Panabo City, Davao del Norte</p>
+                                </div>
+                                <span class="badge badge-college">College (4th Year · Section 4D)</span>
+                            </div>
+
+                            <div class="timeline-body">
+                                <p class="timeline-desc">
+                                    Currently completing final-year senior coursework with a major emphasis on <strong>Systems Integration and Architecture (IT415)</strong>, Advanced Web Systems, and Capstone Project Development. Serving as Lead Systems Analyst for the LGU citizen service inquiry system (Project VISTA).
+                                </p>
+
+                                <div class="coursework-highlights">
+                                    <h5 class="highlights-heading">Key Subjects &amp; Practical Competencies:</h5>
+                                    <div class="course-tags">
+                                        <span class="course-tag">Systems Integration &amp; Architecture (IT415)</span>
+                                        <span class="course-tag">Advanced Database Systems (MySQL)</span>
+                                        <span class="course-tag">Web Development &amp; Modern Frameworks</span>
+                                        <span class="course-tag">Computer Networking &amp; Data Communications</span>
+                                        <span class="course-tag">Systems Analysis &amp; Design (SAD)</span>
+                                        <span class="course-tag">Information Assurance &amp; Cybersecurity</span>
+                                    </div>
+                                </div>
+
+                                <div class="academic-achievement-note">
+                                    <span class="star-icon">🏆</span>
+                                    <span><strong>Academic Recognition:</strong> Consistent Dean's Honor Roll Candidate &amp; Senior Capstone Project Lead.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Timeline Item 2: Senior High School -->
+                    <article class="timeline-node">
+                        <div class="timeline-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div class="timeline-title-group">
+                                    <span class="period-badge">2020 — 2022</span>
+                                    <h3 class="timeline-degree">Information and Communications Technology (ICT Strand)</h3>
+                                    <h4 class="timeline-school">
+                                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                        </svg>
+                                        <span>A.O. Floirendo National High School</span>
+                                    </h4>
+                                    <p class="school-location">Panabo City, Davao del Norte</p>
+                                </div>
+                                <span class="badge badge-shs">Senior High School</span>
+                            </div>
+
+                            <div class="timeline-body">
+                                <p class="timeline-desc">
+                                    Completed the Technical-Vocational-Livelihood (TVL) track with specialization in ICT. Acquired rigorous hands-on competencies aligned with Computer Systems Servicing (CSS NC-II), foundational web programming, and multimedia graphic design.
+                                </p>
+
+                                <div class="coursework-highlights">
+                                    <h5 class="highlights-heading">Specialized Hands-On Training:</h5>
+                                    <div class="course-tags">
+                                        <span class="course-tag">Computer Assembly &amp; Hardware Diagnostics</span>
+                                        <span class="course-tag">Structured LAN Cabling &amp; Crimping</span>
+                                        <span class="course-tag">Operating System Installation &amp; Configuration</span>
+                                        <span class="course-tag">HTML5 &amp; CSS Web Foundations</span>
+                                        <span class="course-tag">Adobe Photoshop Graphic Design</span>
+                                    </div>
+                                </div>
+
+                                <div class="academic-achievement-note">
+                                    <span class="star-icon">🏅</span>
+                                    <span><strong>Honor Graduate:</strong> Graduated With Academic Honors; recognized for outstanding performance in computer systems servicing practicums.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SECTION 4: TECHNICAL AND PROFESSIONAL SKILLS -->
+        <!-- ============================================ -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">CAPABILITIES MATRIX</span>
+                    <h2 class="section-title">Technical &amp; Professional Skills</h2>
+                    <p class="section-subtitle">Proficiencies categorized across software development, database architecture, hardware infrastructure, design, and team collaboration.</p>
+                </div>
+
+                <!-- Skill Filter Tabs -->
+                <div class="skill-filter-tabs" role="tablist" aria-label="Skills Filter">
+                    <button type="button" class="skill-tab active" data-filter="all" role="tab" aria-selected="true">All Skills</button>
+                    <button type="button" class="skill-tab" data-filter="frontend" role="tab" aria-selected="false">Frontend &amp; Web</button>
+                    <button type="button" class="skill-tab" data-filter="database" role="tab" aria-selected="false">Database &amp; Tools</button>
+                    <button type="button" class="skill-tab" data-filter="hardware" role="tab" aria-selected="false">Hardware &amp; Network</button>
+                    <button type="button" class="skill-tab" data-filter="design" role="tab" aria-selected="false">Design &amp; Creative</button>
+                    <button type="button" class="skill-tab" data-filter="soft" role="tab" aria-selected="false">Soft Skills</button>
+                </div>
+
+                <!-- Skills Grid -->
+                <div class="skills-grid" id="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🌐</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                        <h3 class="skill-name">HTML5 Semantic Markup</h3>
+                        <p class="skill-detail">Accessible DOM structure, SEO best practices, semantic layout elements, and form validation.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 92%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🎨</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                        <h3 class="skill-name">CSS3 &amp; Responsive Layouts</h3>
+                        <p class="skill-detail">Flexbox, CSS Grid, custom properties (variables), media queries, print stylesheets, keyframe animations.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 88%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">⚡</span>
+                            <span class="skill-level proficient">Proficient</span>
+                        </div>
+                        <h3 class="skill-name">JavaScript (ES6+)</h3>
+                        <p class="skill-detail">DOM manipulation, event listeners, async/await, Fetch API integration, array methods, and local storage state.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 82%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Database Skills -->
+                    <div class="skill-card" data-category="database">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🗄️</span>
+                            <span class="skill-level proficient">Proficient</span>
+                        </div>
+                        <h3 class="skill-name">MySQL &amp; Database Design</h3>
+                        <p class="skill-detail">Relational schema design (ERD), table normalization (1NF-3NF), complex joins, foreign keys, and phpMyAdmin administration.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 84%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Tools Skills -->
+                    <div class="skill-card" data-category="database">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🐙</span>
+                            <span class="skill-level proficient">Proficient</span>
+                        </div>
+                        <h3 class="skill-name">Git &amp; GitHub</h3>
+                        <p class="skill-detail">Version control workflow, branching, merge conflict resolution, pull requests, and commit tracking.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="database">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">💻</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                        <h3 class="skill-name">Visual Studio Code &amp; Dev Tools</h3>
+                        <p class="skill-detail">Modern code editor workflows, Chrome DevTools debugging, network inspection, and terminal commands.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="database">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">📊</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                        <h3 class="skill-name">Microsoft Office Suite</h3>
+                        <p class="skill-detail">MS Word (technical documentation), MS Excel (data analysis &amp; formulas), MS PowerPoint (project presentations).</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Hardware & Networking Skills -->
+                    <div class="skill-card" data-category="hardware">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🛠️</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                        <h3 class="skill-name">PC Assembly &amp; Disassembly</h3>
+                        <p class="skill-detail">Custom desktop builds, motherboard installation, CPU seating, thermal paste application, power supply cabling.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="hardware">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🔌</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                        <h3 class="skill-name">Structured LAN Cabling</h3>
+                        <p class="skill-detail">Cat5e / Cat6 RJ45 termination, T-568A &amp; T-568B color coding standards, patch panels, and cable continuity testing.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 92%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="hardware">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🔍</span>
+                            <span class="skill-level proficient">Proficient</span>
+                        </div>
+                        <h3 class="skill-name">Hardware Diagnostics &amp; OS Setup</h3>
+                        <p class="skill-detail">POST troubleshooting, RAM/storage diagnostic testing, clean Windows/Linux deployment, driver installation.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 88%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="hardware">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🖨️</span>
+                            <span class="skill-level proficient">Proficient</span>
+                        </div>
+                        <h3 class="skill-name">Printer Setup &amp; Network Sharing</h3>
+                        <p class="skill-detail">Local USB printer driver configuration, network IP printer installation, print spooler troubleshooting, and LAN sharing.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 86%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Design & Creative Skills -->
+                    <div class="skill-card" data-category="design">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🖌️</span>
+                            <span class="skill-level proficient">Proficient</span>
+                        </div>
+                        <h3 class="skill-name">Adobe Photoshop</h3>
+                        <p class="skill-detail">Digital image manipulation, layer masking, typography composition, brochure design, and web graphic asset preparation.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="design">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">📐</span>
+                            <span class="skill-level proficient">Proficient</span>
+                        </div>
+                        <h3 class="skill-name">Figma Prototyping</h3>
+                        <p class="skill-detail">User flow wireframing, high-fidelity UI design systems, component auto-layouts, and clickable prototype testing.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 82%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="design">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🎬</span>
+                            <span class="skill-level practiced">Practiced</span>
+                        </div>
+                        <h3 class="skill-name">Video Editing &amp; Media</h3>
+                        <p class="skill-detail">Video timeline trimming, audio balance, transition effects, and presentation teasers for academic showcases.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Soft & Professional Skills -->
+                    <div class="skill-card" data-category="soft">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🧠</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                        <h3 class="skill-name">Systems Analysis &amp; Problem Solving</h3>
+                        <p class="skill-detail">Translating business and government user needs into technical software requirements, ER diagrams, and process flowcharts.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-category="soft">
+                        <div class="skill-card-top">
+                            <span class="skill-icon">🤝</span>
+                            <span class="skill-level advanced">Advanced</span>
+                        </div>
+                        <h3 class="skill-name">Team Leadership &amp; Collaboration</h3>
+                        <p class="skill-detail">Guiding capstone project teams, orchestrating peer code reviews, sprint task distribution, and effective communication.</p>
+                        <div class="skill-meter">
+                            <div class="meter-bar" style="width: 92%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SECTION 5: FEATURED PROJECTS -->
+        <!-- ============================================ -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">ENGINEERING SHOWCASE</span>
+                    <h2 class="section-title">Featured Projects &amp; Systems</h2>
+                    <p class="section-subtitle">Real-world systems, capstone research, and interactive applications demonstrating practical full-stack and systems engineering.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: VISTA (Capstone) -->
+                    <article class="project-card featured-project">
+                        <div class="project-preview-wrapper">
+                            <img src="assets/vista-preview.svg" alt="VISTA AI Chatbot System Interface" class="project-preview-img" width="800" height="480" loading="lazy">
+                            <div class="project-overlay">
+                                <span class="badge badge-featured">CAPSTONE PROJECT · ONGOING</span>
+                                <button type="button" class="btn btn-sm btn-light open-modal-btn" data-project="vista">
+                                    <span>View System Specs</span>
+                                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 3h6v6"></path>
+                                        <path d="M10 14L21 3"></path>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-meta-top">
+                                <span class="project-role-badge">Lead Systems Analyst &amp; Developer</span>
+                                <span class="project-status-dot online">Active Research</span>
+                            </div>
+
+                            <h3 class="project-title">VISTA: AI-Powered Citizen Inquiry Chatbot for LGU Services</h3>
+                            
+                            <p class="project-desc">
+                                An intelligent conversational AI system built specifically for Local Government Units (LGU Panabo City) to automate inquiries regarding business permits, civil registry certificates, real property tax, and public assistance. Reduces queuing delays by delivering instant 24/7 bilingual responses in English and Cebuano.
+                            </p>
+
+                            <div class="project-features-list">
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Bilingual NLP processing tailored to local Davao / Cebuano dialects.</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Automated checklist generator for municipal permit and certificate requirements.</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Structured query logging to assist LGU staff in tracking citizen concern trends.</span>
+                                </div>
+                            </div>
+
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">JavaScript (ES6+)</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">NLP API Engine</span>
+                                <span class="tech-tag">HTML5 / CSS3</span>
+                                <span class="tech-tag">Figma UI/UX</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <button type="button" class="btn btn-outline btn-sm open-modal-btn" data-project="vista">
+                                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                    </svg>
+                                    <span>Detailed Architecture</span>
+                                </button>
+                                <a href="https://github.com/menozaaxlbien-sudo/My-cv" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                                    <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                                    </svg>
+                                    <span>Repo</span>
+                                </a>
+                                <a href="#vista-preview" class="btn btn-primary btn-sm open-modal-btn" data-project="vista">
+                                    <span>Live Preview</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: TourEase -->
+                    <article class="project-card">
+                        <div class="project-preview-wrapper">
+                            <img src="assets/tourease-preview.svg" alt="TourEase Travel Platform Interface" class="project-preview-img" width="800" height="480" loading="lazy">
+                            <div class="project-overlay">
+                                <span class="badge badge-web">WEB APPLICATION</span>
+                                <button type="button" class="btn btn-sm btn-light open-modal-btn" data-project="tourease">
+                                    <span>View Specs</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-meta-top">
+                                <span class="project-role-badge">Frontend Developer &amp; UI Designer</span>
+                                <span class="project-status-dot complete">Completed</span>
+                            </div>
+
+                            <h3 class="project-title">TourEase: Responsive Travel &amp; Eco-Tourism Discovery</h3>
+                            
+                            <p class="project-desc">
+                                A responsive web destination guide showcasing local tourism hotspots, beach sanctuaries in Samal Island, and highland eco-trails in Davao Region. Features categorized destination filtering, interactive itineraries, and emergency provincial hotlines.
+                            </p>
+
+                            <div class="project-features-list">
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Instant destination filter by category (Island, Mountain, Heritage).</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Client-side trip planner with browser LocalStorage persistence.</span>
+                                </div>
+                            </div>
+
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">HTML5 Semantic</span>
+                                <span class="tech-tag">CSS Grid / Flexbox</span>
+                                <span class="tech-tag">Vanilla JS</span>
+                                <span class="tech-tag">Responsive UI</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <button type="button" class="btn btn-outline btn-sm open-modal-btn" data-project="tourease">
+                                    <span>View Details</span>
+                                </button>
+                                <a href="https://github.com/menozaaxlbien-sudo" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                                    <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                                    </svg>
+                                    <span>Repo</span>
+                                </a>
+                                <button type="button" class="btn btn-secondary btn-sm open-modal-btn" data-project="tourease">Demo</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: DNSC Lab Asset Diagnostics -->
+                    <article class="project-card">
+                        <div class="project-preview-wrapper">
+                            <img src="assets/lab-manager-preview.svg" alt="DNSC IT Lab Hardware Diagnostic Interface" class="project-preview-img" width="800" height="480" loading="lazy">
+                            <div class="project-overlay">
+                                <span class="badge badge-sys">SYSTEMS UTILITY</span>
+                                <button type="button" class="btn btn-sm btn-light open-modal-btn" data-project="labmanager">
+                                    <span>View Specs</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-meta-top">
+                                <span class="project-role-badge">System Developer &amp; Technician</span>
+                                <span class="project-status-dot complete">Deployed Lab Tool</span>
+                            </div>
+
+                            <h3 class="project-title">DNSC Computer Lab Asset &amp; Diagnostics Manager</h3>
+                            
+                            <p class="project-desc">
+                                A practical workstation and network inventory tracker created for college computer laboratories. Tracks PC node hardware specifications (CPU, RAM, Storage), static IP assignments, network printer sharing, and maintenance cycle histories.
+                            </p>
+
+                            <div class="project-features-list">
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Real-time IP collision detection and workstation ping health logger.</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">✓</span>
+                                    <span>Automated printable hardware audit sheets for laboratory custodians.</span>
+                                </div>
+                            </div>
+
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Local JSON / Storage</span>
+                                <span class="tech-tag">Network Tools</span>
+                                <span class="tech-tag">Hardware Auditing</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <button type="button" class="btn btn-outline btn-sm open-modal-btn" data-project="labmanager">
+                                    <span>View Details</span>
+                                </button>
+                                <a href="https://github.com/menozaaxlbien-sudo" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-sm">
+                                    <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                                    </svg>
+                                    <span>Repo</span>
+                                </a>
+                                <button type="button" class="btn btn-secondary btn-sm open-modal-btn" data-project="labmanager">Demo</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SECTION 6: GITHUB & DEV REPOSITORY SHOWCASE -->
+        <!-- ============================================ -->
+        <section class="section github-section" id="github-profile">
+            <div class="container">
+                <div class="github-card-banner">
+                    <div class="github-banner-left">
+                        <div class="github-avatar-circle">
+                            <svg viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <div class="github-info-block">
+                            <span class="github-handle">@menozaaxlbien-sudo</span>
+                            <h3 class="github-title">Personal GitHub Development Hub</h3>
+                            <p class="github-summary">
+                                Explore my public repositories, coding progress, IT415 coursework commits, and experimental software systems on GitHub.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="github-banner-right">
+                        <div class="github-stats-chips">
+                            <span class="chip">🚀 Active Repositories</span>
+                            <span class="chip">🌿 Version Controlled</span>
+                            <span class="chip">⚡ Open for Collaboration</span>
+                        </div>
+                        <div class="github-cta-btns">
+                            <a href="https://github.com/menozaaxlbien-sudo" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                <span>Visit @menozaaxlbien-sudo</span>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/menozaaxlbien-sudo/My-cv" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                                <span>View CV Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SECTION 7 & 10: EXPERIENCE & LEADERSHIP -->
+        <!-- ============================================ -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">LEADERSHIP &amp; PRACTICE</span>
+                    <h2 class="section-title">Technical Experience &amp; Leadership</h2>
+                    <p class="section-subtitle">Practical hands-on roles, academic project leadership, systems troubleshooting, and organization engagement.</p>
+                </div>
+
+                <div class="experience-list">
+                    <!-- Exp Item 1 -->
+                    <article class="experience-card">
+                        <div class="exp-header">
+                            <div class="exp-role-group">
+                                <h3 class="exp-role">Capstone Project Lead &amp; Lead Systems Analyst</h3>
+                                <h4 class="exp-organization">Project VISTA · Davao del Norte State College</h4>
+                            </div>
+                            <span class="exp-period">2024 — Present</span>
+                        </div>
+                        <p class="exp-summary">
+                            Directing a team of 4 BSIT seniors in the conceptualization, system analysis, database schema modeling, and client requirement gathering for an automated citizen assistance platform designed for municipal local government services.
+                        </p>
+                        <ul class="exp-bullet-points">
+                            <li>Formulated complete System Requirements Specifications (SRS), Entity-Relationship Diagrams (ERD), and citizen workflow maps.</li>
+                            <li>Engineered the conversational intent matrix accommodating common civil registry, licensing, and taxation procedures.</li>
+                            <li>Coordinated with faculty advisors and municipal stakeholders to validate system accuracy and usability.</li>
+                        </ul>
+                    </article>
+
+                    <!-- Exp Item 2 -->
+                    <article class="experience-card">
+                        <div class="exp-header">
+                            <div class="exp-role-group">
+                                <h3 class="exp-role">Computer Hardware &amp; IT Support Technician (Practical &amp; Academic)</h3>
+                                <h4 class="exp-organization">DNSC Academic Laboratories &amp; Independent Clients</h4>
+                            </div>
+                            <span class="exp-period">2022 — Present</span>
+                        </div>
+                        <p class="exp-summary">
+                            Providing hardware maintenance, custom workstation assembly, network structured cabling, and software troubleshooting for academic laboratories and private clients in Panabo City.
+                        </p>
+                        <ul class="exp-bullet-points">
+                            <li>Assembled and configured over 20+ desktop systems including motherboards, processors, graphics units, and storage drives.</li>
+                            <li>Executed end-to-end LAN structured cabling: crimped Cat5e/Cat6 cables using T568B standards, tested continuity, and patched switch connections.</li>
+                            <li>Resolved operating system boot errors, malware infections, peripheral driver conflicts, and network printer sharing issues.</li>
+                        </ul>
+                    </article>
+
+                    <!-- Exp Item 3 -->
+                    <article class="experience-card">
+                        <div class="exp-header">
+                            <div class="exp-role-group">
+                                <h3 class="exp-role">Active Member &amp; Technical Volunteer</h3>
+                                <h4 class="exp-organization">Society of Information Technology Students (SITS) · DNSC Chapter</h4>
+                            </div>
+                            <span class="exp-period">2022 — Present</span>
+                        </div>
+                        <p class="exp-summary">
+                            Engaging in collegiate IT initiatives, student developer workshops, digital literacy community drives, and tech exhibits hosted by the Institute of Computing.
+                        </p>
+                        <ul class="exp-bullet-points">
+                            <li>Supported campus IT week exhibits by assisting in hardware assembly demonstrations and technical logistics.</li>
+                            <li>Collaborated with peers during code camps and seminars on web technologies and cloud deployment workflows.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SECTION 9: ACHIEVEMENTS & CERTIFICATIONS -->
+        <!-- ============================================ -->
+        <section class="section certs-section" id="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">CREDENTIALS &amp; RECOGNITION</span>
+                    <h2 class="section-title">Achievements, Certifications &amp; Seminars</h2>
+                    <p class="section-subtitle">Academic honors, practical competence training, and professional development seminars.</p>
+                </div>
+
+                <div class="certs-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">🎓</span>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-type">Academic Honor</span>
+                            <h3 class="cert-name">Dean's Honor Roll Recognition</h3>
+                            <p class="cert-issuer">Davao del Norte State College (DNSC)</p>
+                            <p class="cert-desc">Awarded for sustained academic excellence and high grade-point average in the Bachelor of Science in Information Technology curriculum.</p>
+                            <span class="cert-year">2023 — 2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">💻</span>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-type">Technical Competency</span>
+                            <h3 class="cert-name">Computer Systems Servicing (CSS NC-II Aligned)</h3>
+                            <p class="cert-issuer">A.O. Floirendo NHS / Technical Vocational Program</p>
+                            <p class="cert-desc">Demonstrated verified competence in desktop computer assembly, LAN cabling &amp; router setup, OS deployment, and preventive maintenance.</p>
+                            <span class="cert-year">2022</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">🏛️</span>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-type">Colloquium Presentation</span>
+                            <h3 class="cert-name">Institute of Computing Capstone Colloquium</h3>
+                            <p class="cert-issuer">DNSC College of Information and Computing</p>
+                            <p class="cert-desc">Successfully presented the proposal and architectural feasibility study for Project VISTA (LGU Panabo Citizen AI Helpdesk).</p>
+                            <span class="cert-year">2025</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <span class="cert-icon">🌐</span>
+                        </div>
+                        <div class="cert-content">
+                            <span class="cert-type">Training &amp; Workshop</span>
+                            <h3 class="cert-name">Regional IT Student Congress &amp; Tech Summit</h3>
+                            <p class="cert-issuer">Mindanao IT Student Assembly</p>
+                            <p class="cert-desc">Participated in technical sessions on emerging web frameworks, cloud deployment pipelines, and modern cybersecurity hygiene.</p>
+                            <span class="cert-year">2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SECTION 7 & 8: CONTACT & SOCIAL PLATFORMS -->
+        <!-- ============================================ -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">GET IN TOUCH</span>
+                    <h2 class="section-title">Contact Information &amp; Social Links</h2>
+                    <p class="section-subtitle">Reach out for internship openings, technical inquiries, freelance work, or professional networking.</p>
+                </div>
+
+                <div class="contact-card-main">
+                    <div class="contact-info-panel">
+                        <h3 class="contact-heading">Let's build something impactful together.</h3>
+                        <p class="contact-subtext">
+                            I am actively looking for internship (OJT) opportunities where I can contribute my programming, database, and hardware maintenance skills. Feel free to connect directly via email, phone, or any social platform below.
+                        </p>
+
+                        <!-- Direct Contact List -->
+                        <div class="contact-direct-list">
+                            <div class="direct-item">
+                                <div class="direct-icon">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="direct-meta">
+                                    <span class="direct-label">Institutional Email</span>
+                                    <a href="mailto:menoza.axlbien@dnsc.edu.ph" class="direct-value">menoza.axlbien@dnsc.edu.ph</a>
+                                </div>
+                                <button type="button" class="btn-copy-sm copy-btn" data-copy="menoza.axlbien@dnsc.edu.ph" title="Copy institutional email">Copy</button>
+                            </div>
+
+                            <div class="direct-item">
+                                <div class="direct-icon">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <div class="direct-meta">
+                                    <span class="direct-label">Mobile Phone</span>
+                                    <a href="tel:+639128646926" class="direct-value">+63 912 864 6926</a>
+                                </div>
+                                <button type="button" class="btn-copy-sm copy-btn" data-copy="09128646926" title="Copy phone number">Copy</button>
+                            </div>
+
+                            <div class="direct-item">
+                                <div class="direct-icon">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="direct-meta">
+                                    <span class="direct-label">Location</span>
+                                    <span class="direct-value">Panabo City, Davao del Norte, Philippines 8105</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Media Links (Section 7 & 8) -->
+                        <div class="social-links-block">
+                            <h4 class="social-heading">Connect on Professional &amp; Social Platforms:</h4>
+                            <div class="social-badges">
+                                <!-- GitHub -->
+                                <a href="https://github.com/menozaaxlbien-sudo" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Account">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                                    </svg>
+                                    <span>GitHub</span>
+                                </a>
+
+                                <!-- LinkedIn -->
+                                <a href="https://www.linkedin.com/in/axl-bien-menoza" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                    </svg>
+                                    <span>LinkedIn</span>
+                                </a>
+
+                                <!-- Facebook -->
+                                <a href="https://facebook.com/menozaaxlbien" target="_blank" rel="noopener noreferrer" class="social-pill" title="Facebook Profile">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                    <span>Facebook</span>
+                                </a>
+
+                                <!-- Email -->
+                                <a href="mailto:menoza.axlbien@dnsc.edu.ph" class="social-pill" title="Direct Email">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                    <span>Email</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Interactive Quick Message Form -->
+                    <div class="contact-form-panel">
+                        <h4 class="form-title">Send a Quick Message</h4>
+                        <p class="form-desc">Leave a note or internship inquiry directly below:</p>
+
+                        <form id="contact-form" class="contact-form" onsubmit="event.preventDefault(); window.handleFormSubmit(this);">
+                            <div class="form-group">
+                                <label for="sender-name">Your Full Name</label>
+                                <input type="text" id="sender-name" name="name" placeholder="e.g. Maria Santos" required class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sender-email">Your Email Address</label>
+                                <input type="email" id="sender-email" name="email" placeholder="e.g. msantos@company.com" required class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sender-subject">Subject</label>
+                                <input type="text" id="sender-subject" name="subject" placeholder="e.g. OJT Opportunity / IT Position" required class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sender-message">Message</label>
+                                <textarea id="sender-message" name="message" rows="4" placeholder="Hello Axl, we came across your CV website and would like to invite you for an interview..." required class="form-control"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-btn">
+                                <span>Send Message</span>
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+
+                            <div class="form-status" id="form-status" role="alert" style="display: none;"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Deep-Dive Modal Component -->
+    <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" style="display: none;">
+        <div class="modal-container">
+            <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close project modal">&times;</button>
+            <div class="modal-content" id="modal-content-area">
+                <!-- Dynamically populated via script.js -->
+            </div>
         </div>
     </div>
+
+    <!-- Toast Notification for Clipboard & Actions -->
+    <div class="toast-container" id="toast-container" role="status" aria-live="polite"></div>
+
+    <!-- Print Only CV Header (Visible only when printed or exported as PDF) -->
+    <div class="print-only-sheet" id="print-sheet">
+        <div class="print-header">
+            <div>
+                <h1 class="print-name">AXL BIEN MEÑOZA</h1>
+                <p class="print-title">Bachelor of Science in Information Technology (BSIT) · Systems Analyst &amp; Web Developer</p>
+                <p class="print-contacts">
+                    Panabo City, Davao del Norte, PH · (+63) 912 864 6926 · menoza.axlbien@dnsc.edu.ph · github.com/menozaaxlbien-sudo
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <span class="brand-monogram">AM</span>
+                    <span class="footer-copy-text">Axl Bien Meñoza · BSIT Senior</span>
+                </div>
+                <p class="footer-tagline">
+                    Curriculum Vitae created for IT415 (Systems Integration and Architecture) at Davao del Norte State College.
+                </p>
+            </div>
+
+            <div class="footer-center">
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <button type="button" class="btn btn-outline btn-sm print-cv-btn">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                        <rect x="6" y="14" width="12" height="8"></rect>
+                    </svg>
+                    <span>Print / Save PDF</span>
+                </button>
+                <p class="copyright-note">&copy; 2026 Axl Bien Meñoza. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Logic Script -->
+    <script src="script.js"></script>
 </body>
 
 </html>
