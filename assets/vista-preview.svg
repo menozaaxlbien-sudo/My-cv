@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="480" fill="url(#bgGrad)" rx="12"/>
+  
+  <!-- Subtle Grid Lines -->
+  <path d="M 0 80 L 800 80 M 0 160 L 800 160 M 0 240 L 800 240 M 0 320 L 800 320 M 0 400 L 800 400" stroke="#334155" stroke-opacity="0.3" stroke-width="1"/>
+  <path d="M 160 0 L 160 480 M 320 0 L 320 480 M 480 0 L 480 480 M 640 0 L 640 480" stroke="#334155" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Main Application Window -->
+  <g transform="translate(40, 30)" filter="url(#shadow)">
+    <!-- Window Frame -->
+    <rect width="720" height="420" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    
+    <!-- Title Bar -->
+    <rect width="720" height="42" rx="10" fill="#0f172a"/>
+    <rect y="32" width="720" height="10" fill="#0f172a"/>
+    <circle cx="24" cy="21" r="5" fill="#ef4444"/>
+    <circle cx="40" cy="21" r="5" fill="#f59e0b"/>
+    <circle cx="56" cy="21" r="5" fill="#10b981"/>
+    
+    <text x="360" y="26" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+      VISTA — Citizen Service AI Assistant (LGU Panabo)
+    </text>
+
+    <!-- App Sidebar -->
+    <rect x="0" y="42" width="200" height="378" fill="#131d31" stroke="#334155" stroke-width="0.5"/>
+    
+    <!-- LGU Badge -->
+    <rect x="16" y="58" width="168" height="40" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
+    <circle cx="36" cy="78" r="10" fill="#2563eb"/>
+    <text x="36" y="82" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">V</text>
+    <text x="56" y="74" fill="#f8fafc" font-family="sans-serif" font-size="11" font-weight="700">Project VISTA</text>
+    <text x="56" y="87" fill="#38bdf8" font-family="sans-serif" font-size="9">LGU Automated Helpdesk</text>
+
+    <!-- Service Categories -->
+    <text x="16" y="122" fill="#64748b" font-family="sans-serif" font-size="10" font-weight="700" letter-spacing="1">DEPARTMENTS</text>
+    
+    <rect x="12" y="132" width="176" height="28" rx="6" fill="#2563eb" fill-opacity="0.2"/>
+    <text x="24" y="150" fill="#60a5fa" font-family="sans-serif" font-size="11" font-weight="600">🏛️ Business Permits</text>
+    
+    <text x="24" y="180" fill="#94a3b8" font-family="sans-serif" font-size="11">📑 Civil Registry (Birth/Cert)</text>
+    <text x="24" y="210" fill="#94a3b8" font-family="sans-serif" font-size="11">🏡 Assessor &amp; Land Tax</text>
+    <text x="24" y="240" fill="#94a3b8" font-family="sans-serif" font-size="11">🩺 City Health Office</text>
+    <text x="24" y="270" fill="#94a3b8" font-family="sans-serif" font-size="11">🚨 Disaster Risk &amp; Hotlines</text>
+
+    <!-- Bot Status in Sidebar -->
+    <rect x="14" y="360" width="172" height="44" rx="8" fill="#1e293b"/>
+    <circle cx="28" cy="382" r="5" fill="#10b981"/>
+    <text x="40" y="379" fill="#f8fafc" font-family="sans-serif" font-size="11" font-weight="600">AI Engine Online</text>
+    <text x="40" y="393" fill="#10b981" font-family="sans-serif" font-size="9">Latency: 24ms · 99.8% Accuracy</text>
+
+    <!-- Chat Area -->
+    <rect x="200" y="42" width="520" height="378" fill="#0f172a"/>
+
+    <!-- Citizen Message Bubble -->
+    <g transform="translate(420, 70)">
+      <rect width="280" height="48" rx="12" fill="#2563eb"/>
+      <text x="14" y="22" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="500">Unsay requirements para mag-renew</text>
+      <text x="14" y="38" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="500">ug Business Permit karong tuiga?</text>
+      <text x="240" y="42" fill="#93c5fd" font-family="sans-serif" font-size="8">10:14 AM</text>
+    </g>
+
+    <!-- Bot Response Bubble -->
+    <g transform="translate(220, 134)">
+      <rect width="460" height="145" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="24" cy="24" r="10" fill="#3b82f6"/>
+      <text x="24" y="28" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">AI</text>
+      <text x="42" y="24" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="700">VISTA Panabo Assistant</text>
+      <text x="410" y="24" fill="#64748b" font-family="sans-serif" font-size="9">Just now</text>
+
+      <text x="24" y="48" fill="#e2e8f0" font-family="sans-serif" font-size="11">Maayong adlaw! Mao kini ang mga rekisitos alang sa</text>
+      <text x="24" y="66" fill="#60a5fa" font-family="sans-serif" font-size="11" font-weight="600">Business Permit Renewal (2026):</text>
+      
+      <circle cx="30" cy="85" r="3" fill="#3b82f6"/>
+      <text x="40" y="89" fill="#cbd5e1" font-family="sans-serif" font-size="10">1. Previous Year Mayor’s Permit &amp; Official Receipts</text>
+
+      <circle cx="30" cy="103" r="3" fill="#3b82f6"/>
+      <text x="40" y="107" fill="#cbd5e1" font-family="sans-serif" font-size="10">2. Barangay Business Clearance (Current Year)</text>
+
+      <circle cx="30" cy="121" r="3" fill="#3b82f6"/>
+      <text x="40" y="125" fill="#cbd5e1" font-family="sans-serif" font-size="10">3. Audited Financial Statement / Gross Sales Declaration</text>
+    </g>
+
+    <!-- Interactive Quick Action Buttons -->
+    <g transform="translate(220, 292)">
+      <rect width="130" height="26" rx="13" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
+      <text x="65" y="17" fill="#60a5fa" font-family="sans-serif" font-size="10" font-weight="500" text-anchor="middle">📥 Download Checklist</text>
+
+      <rect x="140" width="130" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="205" y="17" fill="#94a3b8" font-family="sans-serif" font-size="10" font-weight="500" text-anchor="middle">📅 Book Appointment</text>
+
+      <rect x="280" width="140" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="350" y="17" fill="#94a3b8" font-family="sans-serif" font-size="10" font-weight="500" text-anchor="middle">💬 Chat Live Officer</text>
+    </g>
+
+    <!-- Chat Input Box -->
+    <g transform="translate(220, 350)">
+      <rect width="470" height="42" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="16" y="26" fill="#64748b" font-family="sans-serif" font-size="11">Pangutana mahitungod sa serbisyo sa gobyerno...</text>
+      <rect x="424" y="6" width="38" height="30" rx="6" fill="#2563eb"/>
+      <path d="M 436 21 L 448 21 M 444 17 L 448 21 L 444 25" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
